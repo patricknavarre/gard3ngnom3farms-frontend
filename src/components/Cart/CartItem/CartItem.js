@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import styles from "./CartItem.module.css";
-
-import { connect } from "react-redux";
 import {
   adjustItemQty,
   removeFromCart,
 } from "../../../redux/Shopping/shopping-action-creators";
+import { connect } from "react-redux";
+import styles from "./CartItem.module.css";
 
 const CartItem = ({ item, adjustQty, removeFromCart }) => {
   const [input, setInput] = useState(item.qty);
