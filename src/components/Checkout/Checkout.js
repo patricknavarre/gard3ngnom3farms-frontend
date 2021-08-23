@@ -1,6 +1,11 @@
 import React from 'react';
 import styles from "./Checkout.module.css";
 
+const [firstName, setFirstName] = useState("");
+const [lastName, setLastName] = useState("");
+
+
+
 export default function Checkout() {
 
     onChangeHandler = (e) => {
@@ -8,17 +13,18 @@ export default function Checkout() {
     }
      
     return (
-        <div>
-            
-            <form>
-      <h1>Hello {this.state.username}</h1>
-      <p>Enter your name:</p>
-      <input
-        type='text'
-        onChange={this.onChangeHandler}
-      />
-      </form>
+        <div className={styles.checkout}>
+        <div className={styles.checkout_form}>
+        <input
+        id="component-firstName"
+        
+        >
 
+        </input>
+
+        </div>
+        
+      
         </div>
     )
 }

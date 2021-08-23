@@ -78,7 +78,7 @@ const INITIAL_STATE = {
         id: 9,
         title: "Organic Russian 117 Tomato",
         description:
-          "HEIRLOOM. A bright mix Popular family heirloom from Russia. Indeterminate, regular leaf plant with wispy foliage produces an abundant crop of beautiful 1-2 lb., red, oxheart tomatoes. Unique because of the unusual double heart-shaped form of its fruit. $4/each ",
+          "HEIRLOOM. A bright mix Popular family heirloom from Russia. Indeterminate, regular leaf plant with wispy foliage produces an abundant crop of beautiful 1-2 lb., red, oxheart tomatoes. Unique because of the unusual double heart-shaped form of its fruit. $4/lb ",
         price: 4.0,
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2sJDwCuOROc_RU7P8bTR2nh6_8ZUYR3zrMA&usqp=CAU HBocHBwcHBocGh0aGRocHhocIS4lHh4rIR4aJjgnKy8xNTU1GiU7QDs0Py40NTEBDAwMEA8QHxISHzQsJCs0NDQ2ND00NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP",
@@ -87,7 +87,7 @@ const INITIAL_STATE = {
         id: 10,
         title: "Black Krim Tomato",
         description:
-          "HEIRLOOM. Medium-sized, very dark maroon beefsteak, with wonderfully rich flavor. This medium-sized, very dark maroon beefsteak, with wonderfully rich flavor, originated in Crimea, a peninsula in the Black Sea with perfect tomato summers. $4/each",
+          "HEIRLOOM. Medium-sized, very dark maroon beefsteak, with wonderfully rich flavor. This medium-sized, very dark maroon beefsteak, with wonderfully rich flavor, originated in Crimea, a peninsula in the Black Sea with perfect tomato summers. $4/lb",
         price: 4.0,
         image:
           "https://www.edenbrothers.com/store/media/Seeds-Vegetables/resized/SVTOM135-1_medium.jpg",
@@ -114,7 +114,7 @@ const INITIAL_STATE = {
         id: 13,
         title: "Lemon Cucumber",
         description:
-          "Heirloom. Round and yellow, this tennis ball-sized cucumber is a perfect serving for one or two people. It is believed to have been introduced to the US in the late 1800s. Lemon cucumber does not have a lemon taste, only color, but has a thin, tender skin with a flavor a little milder than a regular cucumber’s. $4/lb",
+          "Heirloom. Round and yellow, this tennis ball-sized cucumber is a perfect serving for one or two people. It is believed to have been introduced to the US in the late 1800s. Lemon cucumber does not have a lemon taste, only color, but has a thin, tender skin with a flavor a little milder than a regular cucumber’s. $5/lb",
         price: 5.0,
         image:
           "https://www.everwilde.com/media/1000/Lemon-Slicing-Cucumber-Seeds-01.gif",

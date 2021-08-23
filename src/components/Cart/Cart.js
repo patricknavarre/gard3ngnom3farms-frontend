@@ -33,7 +33,9 @@ const Cart = ({ cart }) => {
           <span>TOTAL: ({totalItems} items)</span>
           <span>$ {totalPrice}</span>
         </div>
-        <button className={styles.summary_checkoutBtn}>
+        <button 
+        
+        className={styles.summary_checkoutBtn}>
           Place Your Order Here 
         </button>
       </div>
