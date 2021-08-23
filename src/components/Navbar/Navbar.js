@@ -18,6 +18,21 @@ const Navbar = ({ cart }) => {
   return (
     <div className={styles.navbar}>
       <Link to="/">
+        <img 
+        className={styles.navbar_farm_icon}
+        src="https://img.icons8.com/ios/452/farm.png"
+        alt="farm-icon"
+        />
+        <img 
+        className={styles.navbar_usa_icon}
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhvUJ6-07Lz3UsMQHb3TZLfv281i051rWPchZUxrtR7gKXR5YM293dQrEsPTz_RF8HjyA&usqp=CAU"
+        alt="usa-icon"
+        />
+        <img 
+        className={styles.navbar_usmc_icon}
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ6GtbRnD5tH0BGJieXTHx3erOplj_Rac1d_KXQaqKiev1OVpEFYhafjrFjZ080T2TjlE&usqp=CAU"
+        alt="usmc-icon"
+        />
         <h2 className={styles.navbar_logo}>Welcome To Gard3n Gnom3 Farms!</h2>
         <h3 className={styles.navbar_description}>Gard3n Gnom3 Farms is a small veteran owned garden that provides fresh, ORGANIC vegetables to the local Upper Cape Cod area.</h3>
       </Link>

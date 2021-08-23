@@ -28,7 +28,7 @@ const Cart = ({ cart }) => {
         ))}
       </div>
       <div className={styles.cart_summary}>
-        <h4 className={styles.summary_title}>=======Cart Summary======</h4>
+        <h4 className={styles.summary_title}>=======Cart Summary=======</h4>
         <div className={styles.summary_price}>
           <span>TOTAL: ({totalItems} items)</span>
           <span>$ {totalPrice}</span>

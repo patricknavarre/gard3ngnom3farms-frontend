@@ -44,20 +44,13 @@
   
   .summary_checkoutBtn {
     padding: 10px 17px;
-    border: 1px solid var(--secondary-color);
+    border: 1px solid black;
     border-radius: 10px;
-    background: var(--primary-color);
-    color: var(--light-color);
     font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
   }
-  
-  .summary_checkoutBtn:focus {
-    outline: none;
-    border: 1px solid var(--secondary-color);
-  }
-  
+   
   .summary_checkoutBtn:hover {
     opacity: 0.75;
   }
