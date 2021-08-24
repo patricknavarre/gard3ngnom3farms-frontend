@@ -13,8 +13,9 @@ import Navbar from "./components/Navbar/Navbar";
 import Products from "./components/Products/Products";
 import Cart from "./components/Cart/Cart";
 import SingleItem from "./components/SingleItem/SingleItem";
+import Checkout from './components/Checkout/Checkout'
 
-function App({ current }) {
+function App({ currentState }) {
   return (
     <Router>
       <div className="app">
@@ -22,11 +23,12 @@ function App({ current }) {
         <Switch>
           <Route exact path="/" component={Products} />
           <Route exact path="/cart" component={Cart} />
-          {!current ? (
+          {!currentState ? (
             <Redirect to="/" />
           ) : (
             <Route exact path="/product/:id" component={SingleItem} />
           )}
+          <Route exact path="/checkout" component={Checkout} />
         </Switch>
       </div>
     </Router>
@@ -35,7 +37,7 @@ function App({ current }) {
 
 const mapStateToProps = (state) => {
   return {
-    current: state.shop.currentItem,
+    currentState: state.shop.currentItem,
   };
 };
 

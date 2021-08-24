@@ -1,30 +1,28 @@
-import React from 'react';
-import styles from "./Checkout.module.css";
+import styles from './Checkout.module.css';
+import React from 'react'
 
-const [firstName, setFirstName] = useState("");
-const [lastName, setLastName] = useState("");
+import { connect } from "react-redux"
 
-
-
-export default function Checkout() {
-
-    onChangeHandler = (e) => {
-        
-    }
-     
-    return (
-        <div className={styles.checkout}>
-        <div className={styles.checkout_form}>
-        <input
-        id="component-firstName"
-        
-        >
-
-        </input>
-
-        </div>
-        
-      
-        </div>
-    )
+const Checkout = ({ cart }) => {
+  return (
+    <div className={styles.checkout}>
+     <form>
+     <div>
+  <label htmlFor="inputBuyerEmail" className={styles.checkout_input}>
+    Email:
+    <input type="text" name="buyerEmail" />
+  </label>
+     </div>
+  <input type="submit" value="Submit" />
+</form>
+    </div>
+  )
 }
+
+const mapStateToProps = (state) => {
+  return {
+    cart: state.shop.cart
+  }
+}
+
+export default connect(mapStateToProps)(Checkout)

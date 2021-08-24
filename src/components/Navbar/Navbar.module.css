@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.2rem;
-    background: rgba(126, 163, 111, 0.603);
+    background: rgb(126, 163, 111);
     position: sticky;
     top: 0;
     left: 0;
@@ -12,20 +12,21 @@
   }
   
   .navbar_logo {
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
     color: black;
   }
 
   .navbar_description {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
     color: black;
   }
   
   .navbar_cart {
     background: #fff;
-    width: 120px;
+    width: 100px;
+    height: 45px;
     border: none;
     border-radius: 15px;
     display: flex;
@@ -35,13 +36,13 @@
     cursor: pointer;
     margin-right: 50px;
   }
-  
+/*   
   .navbar_cart:hover {
     opacity: 0.75;
-  }
+  } */
   
   .cart_title {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: black;
   }
@@ -53,20 +54,20 @@
   }
 
   .navbar_farm_icon {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     object-fit: contain;
   }
 
   .navbar_usmc_icon {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     object-fit: contain;
   }
 
   .navbar_usa_icon {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     object-fit: contain;
   }
   
@@ -74,7 +75,7 @@
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
